@@ -25,14 +25,11 @@ public class Produs {
 
 	}
 
-
-
 	public static float getPretCuDiscount(float pretInitial, float discount) {
 
 		return pretInitial - (discount * pretInitial);
 
 	}
-	
 	public float getPretFinal(TipProdus tipProdus, float pretInitial, int vechimeClientInAni) throws ExceptiePretInvalid, ExceptieVechimeClient 
 	  {
 		
